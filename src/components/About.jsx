@@ -13,7 +13,7 @@ const About = () => {
                 With a Strong foundation in front end technologies,
                 I strive to create seamless and efficient user experience.
             </p>
-            <div className='space-y-4'>
+            <div className='space-y-4 mt-6'>
               <div className='flex items-center'>
                 <label htmlFor="htmlcss" className='w-2/12'>HTML & CSS </label>
                 <div className='grow bg-gray-500 rounded-full h-2.5'>
