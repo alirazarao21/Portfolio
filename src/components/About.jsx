@@ -31,7 +31,7 @@ const About = () => {
             </div>
             <div className='space-y-4'>
               <div className='flex items-center'>
-                <label htmlFor="htmlcss" className='w-2/12'>JS</label>
+                <label htmlFor="htmlcss"  className='w-2/12'>JS</label>
                 <div className='grow bg-gray-500 rounded-full h-2.5'>
                   <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-9/12 '></div>
                 </div>
