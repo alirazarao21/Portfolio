@@ -13,9 +13,55 @@ const About = () => {
                 With a Strong foundation in front end technologies,
                 I strive to create seamless and efficient user experience.
             </p>
+            <div className='space-y-4'>
+              <div className='flex items-center'>
+                <label htmlFor="htmlcss" className='w-2/12'>HTML & CSS </label>
+                <div className='grow bg-gray-500 rounded-full h-2.5'>
+                  <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-10/12 '></div>
+                </div>
+              </div>
             </div>
+            <div className='space-y-4'>
+              <div className='flex items-center'>
+                <label htmlFor="htmlcss" className='w-2/12'>React Js </label>
+                <div className='grow bg-gray-500 rounded-full h-2.5'>
+                  <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-8/12 '></div>
+                </div>
+              </div>
+            </div>
+            <div className='space-y-4'>
+              <div className='flex items-center'>
+                <label htmlFor="htmlcss" className='w-2/12'>JS</label>
+                <div className='grow bg-gray-500 rounded-full h-2.5'>
+                  <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-9/12 '></div>
+                </div>
+              </div>
+            </div>
+            <div className='mt-12 flex justify-between text-center'>
+                 <div >
+                   <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
+                    2+
+                   </h3>
+                   <p>Years experience</p>
+                 </div>
+                 <div >
+                   <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
+                    10+
+                   </h3>
+                   <p>Projects Completed</p>
+                 </div>
+                 <div >
+                   <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
+                    5+
+                   </h3>
+                   <p>Happy Clients</p>
+                 </div>
+                  
+
+            </div>
+          </div>
          </div>
-         </div>
+       </div>
     </div>
   )
 }
